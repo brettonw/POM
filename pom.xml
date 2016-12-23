@@ -29,6 +29,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <scm>
+        <connection>scm:git:git@github.com:brettonw/POM.git</connection>
+        <developerConnection>scm:git:git@github.com:brettonw/POM.git</developerConnection>
+        <url>https://github.com:brettonw/POM.git</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
