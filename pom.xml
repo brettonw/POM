@@ -29,9 +29,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Tomcat 9.0 v. 4.0.0 -->
         <servlet.version>4.0.0</servlet.version>
-        <java.version>11</java.version>
-        <log4j.version>2.13.2</log4j.version>
-        <junit.version>4.13.1</junit.version>
+        <java.version>14</java.version>
+        <log4j.version>2.15.0</log4j.version>
+        <junit-jupiter.version>5.8.2</junit-jupiter.version>
     </properties>
 
     <scm>
@@ -47,9 +47,10 @@
             <version>${log4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit-jupiter.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
